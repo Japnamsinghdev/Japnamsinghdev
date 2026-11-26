@@ -1,6 +1,6 @@
-<img src="assets/banner.svg" alt="Lucky — Full Stack Java Developer" width="100%"/>
+<img src="assets/banner.svg" alt="Japnam Singh — Full Stack Java Developer" width="100%"/>
 
-# Hi, I'm Lucky
+# Hi, I'm Japnam Singh
 
 **Full Stack Java Developer** · I build scalable Spring Boot backends & React web apps · Open to opportunities
 
@@ -17,7 +17,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
-  <img src="assets/terminal-light.svg" alt="About Lucky terminal summary" width="100%">
+  <img src="assets/terminal-light.svg" alt="About Japnam Singh terminal summary" width="100%">
 </picture>
 
 - I build **end-to-end full-stack web applications** using **Java 21, Spring Boot & React (TypeScript)**

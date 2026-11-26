@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Lucky - Full Stack Java Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Japnam Singh - Full Stack Java Developer">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#090d16"/>
@@ -63,8 +63,8 @@
     <circle cx="16" cy="13" r="4" fill="#22c55e"/>
     <text x="28" y="17" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">OPEN TO FULL STACK JAVA ROLES</text>
 
-    <text x="0" y="92" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1">Lucky</text>
-    <rect x="0" y="106" width="140" height="4" rx="2" fill="url(#accentBar)"/>
+    <text x="0" y="92" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Japnam Singh</text>
+    <rect x="0" y="106" width="180" height="4" rx="2" fill="url(#accentBar)"/>
 
     <text x="0" y="142" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="500">Full Stack Java Developer · Spring Boot &amp; React</text>
     <text x="0" y="172" fill="#64748b" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">Building REST APIs, JWT Security, PostgreSQL schemas &amp; modern UIs</text>
