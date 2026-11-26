@@ -1,4 +1,4 @@
-<img src="assets/banner.svg" alt="Japnam Singh — Full Stack Java Developer" width="100%"/>
+<img src="assets/banner.svg?v=2" alt="Japnam Singh — Full Stack Java Developer" width="100%"/>
 
 <p align="center">
   <a href="mailto:lucky6387183422@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
@@ -15,8 +15,8 @@
 ### 👨‍💻 About me
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
-  <img src="assets/terminal-light.svg" alt="About Japnam Singh terminal summary" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg?v=2">
+  <img src="assets/terminal-light.svg?v=2" alt="About Japnam Singh terminal summary" width="100%">
 </picture>
 
 ### 🚀 Currently Building — ShopSphere
