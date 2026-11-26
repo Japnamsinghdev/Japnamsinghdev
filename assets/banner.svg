@@ -1,72 +1,110 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Japnam Singh - Full Stack Java Developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="Japnam Singh - Full Stack Java Developer">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090d16"/>
-      <stop offset="55%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#131c36"/>
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="50%" stop-color="#0d1326"/>
+      <stop offset="100%" stop-color="#111827"/>
     </linearGradient>
-    <radialGradient id="glow1" cx="78%" cy="48%" r="36%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
-      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    <radialGradient id="orbBlue" cx="82%" cy="35%" r="42%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.26"/>
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#0d1326" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="glow2" cx="20%" cy="75%" r="35%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    <radialGradient id="orbPurple" cx="18%" cy="85%" r="40%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#060913" stop-opacity="0"/>
     </radialGradient>
-    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="50%" stop-color="#818cf8"/>
       <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.5"/>
+    <linearGradient id="cardStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.45"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
-  <rect width="1200" height="320" rx="16" fill="url(#grid)"/>
-  <rect width="1200" height="320" rx="16" fill="url(#glow1)"/>
-  <rect width="1200" height="320" rx="16" fill="url(#glow2)"/>
+  <!-- Canvas -->
+  <rect width="1200" height="340" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#dots)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#orbBlue)"/>
+  <rect width="1200" height="340" rx="18" fill="url(#orbPurple)"/>
+  <rect x="1" y="1" width="1198" height="338" rx="17" fill="none" stroke="#1e293b" stroke-width="1.5"/>
 
-  <!-- Architecture node graphic on right -->
-  <g transform="translate(760, 48)">
-    <line x1="165" y1="112" x2="55" y2="45" stroke="#334155" stroke-width="1.8"/>
-    <line x1="165" y1="112" x2="295" y2="45" stroke="#334155" stroke-width="1.8"/>
-    <line x1="165" y1="112" x2="45" y2="182" stroke="#334155" stroke-width="1.8"/>
-    <line x1="165" y1="112" x2="305" y2="182" stroke="#334155" stroke-width="1.8"/>
-    <line x1="55" y1="45" x2="295" y2="45" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 4"/>
-    <line x1="45" y1="182" x2="305" y2="182" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 4"/>
+  <!-- Left Content -->
+  <g transform="translate(64, 58)">
+    <!-- Status Badge -->
+    <rect x="0" y="0" width="298" height="30" rx="15" fill="#0f172a" stroke="#1e293b" stroke-width="1.2"/>
+    <circle cx="18" cy="15" r="4.5" fill="#22c55e"/>
+    <text x="32" y="19" fill="#e2e8f0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="0.9">OPEN TO FULL STACK JAVA ROLES</text>
 
-    <!-- Center core node -->
-    <circle cx="165" cy="112" r="46" fill="#0f172a" stroke="url(#accentBar)" stroke-width="2.5"/>
-    <text x="165" y="107" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="700">JAVA 21</text>
-    <text x="165" y="126" text-anchor="middle" fill="#38bdf8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600">Spring Boot</text>
+    <!-- Main Name -->
+    <text x="0" y="102" fill="#f8fafc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-1.2">Japnam Singh</text>
+    <rect x="0" y="118" width="190" height="4.5" rx="2.25" fill="url(#accentGrad)"/>
 
-    <!-- Satellite nodes -->
-    <rect x="0" y="24" width="110" height="36" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4"/>
-    <text x="55" y="47" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">React + TS</text>
+    <!-- Role & Tagline -->
+    <text x="0" y="158" fill="#cbd5e1" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="600">Full Stack Java Developer</text>
+    <text x="0" y="188" fill="#94a3b8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="400">Spring Boot · React + TypeScript · PostgreSQL · Redis · Kafka</text>
 
-    <rect x="240" y="24" width="118" height="36" rx="10" fill="#0b1220" stroke="#818cf8" stroke-opacity="0.55" stroke-width="1.4"/>
-    <text x="299" y="47" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">PostgreSQL</text>
+    <!-- Bottom Pill Tags -->
+    <g transform="translate(0, 214)">
+      <rect x="0" y="0" width="116" height="28" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="58" y="18" text-anchor="middle" fill="#38bdf8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="12" font-weight="600">REST APIs</text>
 
-    <rect x="-10" y="164" width="110" height="36" rx="10" fill="#0b1220" stroke="#f43f5e" stroke-opacity="0.55" stroke-width="1.4"/>
-    <text x="45" y="187" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">Redis Cache</text>
+      <rect x="128" y="0" width="132" height="28" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="194" y="18" text-anchor="middle" fill="#a5b4fc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="12" font-weight="600">JWT Security</text>
 
-    <rect x="245" y="164" width="118" height="36" rx="10" fill="#0b1220" stroke="#c084fc" stroke-opacity="0.55" stroke-width="1.4"/>
-    <text x="304" y="187" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">Apache Kafka</text>
+      <rect x="272" y="0" width="136" height="28" rx="8" fill="#1e293b" fill-opacity="0.75" stroke="#334155" stroke-width="1"/>
+      <text x="340" y="18" text-anchor="middle" fill="#6ee7b7" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="12" font-weight="600">Event-Driven</text>
+    </g>
   </g>
 
-  <!-- Left Text Block -->
-  <g transform="translate(64, 72)">
-    <rect x="0" y="0" width="290" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
-    <circle cx="16" cy="13" r="4" fill="#22c55e"/>
-    <text x="28" y="17" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">OPEN TO FULL STACK JAVA ROLES</text>
+  <!-- Right Glass Architecture Card -->
+  <g transform="translate(715, 44)">
+    <rect x="0" y="0" width="420" height="252" rx="14" fill="#0b1120" fill-opacity="0.88" stroke="url(#cardStroke)" stroke-width="1.3"/>
 
-    <text x="0" y="92" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="52" font-weight="800" letter-spacing="-1">Japnam Singh</text>
-    <rect x="0" y="106" width="180" height="4" rx="2" fill="url(#accentBar)"/>
+    <!-- Card Header -->
+    <circle cx="20" cy="19" r="5" fill="#ef4444"/>
+    <circle cx="37" cy="19" r="5" fill="#f59e0b"/>
+    <circle cx="54" cy="19" r="5" fill="#22c55e"/>
+    <text x="398" y="23" text-anchor="end" fill="#64748b" font-family="Consolas, Monaco, monospace" font-size="11">architecture.flow</text>
+    <line x1="0" y1="36" x2="420" y2="36" stroke="#1e293b" stroke-width="1"/>
 
-    <text x="0" y="142" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="500">Full Stack Java Developer · Spring Boot &amp; React</text>
-    <text x="0" y="172" fill="#64748b" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">Building REST APIs, JWT Security, PostgreSQL schemas &amp; modern UIs</text>
+    <!-- Layer 1: Client -->
+    <rect x="24" y="54" width="372" height="40" rx="9" fill="#111827" stroke="#38bdf8" stroke-opacity="0.45" stroke-width="1.2"/>
+    <text x="42" y="79" fill="#38bdf8" font-family="Consolas, Monaco, monospace" font-size="12" font-weight="700">UI</text>
+    <text x="86" y="79" fill="#e2e8f0" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="13" font-weight="600">React + TypeScript + Tailwind</text>
+    <text x="380" y="79" text-anchor="end" fill="#64748b" font-family="Consolas, Monaco, monospace" font-size="11">:5173</text>
+
+    <!-- Connector -->
+    <line x1="210" y1="94" x2="210" y2="112" stroke="#475569" stroke-width="1.5"/>
+
+    <!-- Layer 2: Core Backend -->
+    <rect x="24" y="112" width="372" height="44" rx="9" fill="#131c31" stroke="#818cf8" stroke-opacity="0.7" stroke-width="1.4"/>
+    <text x="42" y="139" fill="#a5b4fc" font-family="Consolas, Monaco, monospace" font-size="12" font-weight="700">API</text>
+    <text x="86" y="139" fill="#f8fafc" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif" font-size="13.5" font-weight="700">Java 21 · Spring Boot · Security</text>
+    <text x="380" y="139" text-anchor="end" fill="#64748b" font-family="Consolas, Monaco, monospace" font-size="11">:8080</text>
+
+    <!-- Connectors to Data Layer -->
+    <line x1="90" y1="156" x2="90" y2="178" stroke="#475569" stroke-width="1.4"/>
+    <line x1="210" y1="156" x2="210" y2="178" stroke="#475569" stroke-width="1.4"/>
+    <line x1="330" y1="156" x2="330" y2="178" stroke="#475569" stroke-width="1.4"/>
+
+    <!-- Layer 3: Data & Messaging -->
+    <rect x="24" y="178" width="114" height="48" rx="9" fill="#0f172a" stroke="#3b82f6" stroke-opacity="0.5" stroke-width="1.2"/>
+    <text x="81" y="200" text-anchor="middle" fill="#60a5fa" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">PostgreSQL</text>
+    <text x="81" y="216" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="10">Flyway + JPA</text>
+
+    <rect x="153" y="178" width="114" height="48" rx="9" fill="#0f172a" stroke="#f43f5e" stroke-opacity="0.5" stroke-width="1.2"/>
+    <text x="210" y="200" text-anchor="middle" fill="#fb7185" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">Redis</text>
+    <text x="210" y="216" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="10">Cache + Lock</text>
+
+    <rect x="282" y="178" width="114" height="48" rx="9" fill="#0f172a" stroke="#c084fc" stroke-opacity="0.5" stroke-width="1.2"/>
+    <text x="339" y="200" text-anchor="middle" fill="#d8b4fe" font-family="system-ui, sans-serif" font-size="12.5" font-weight="700">Kafka</text>
+    <text x="339" y="216" text-anchor="middle" fill="#64748b" font-family="Consolas, monospace" font-size="10">Async Events</text>
   </g>
 </svg>
