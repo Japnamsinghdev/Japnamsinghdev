@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Lucky - Full Stack Java Developer">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="55%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#131c36"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="78%" cy="48%" r="36%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#6366f1" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="20%" cy="75%" r="35%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#090d16" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.8" stroke-opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#glow1)"/>
+  <rect width="1200" height="320" rx="16" fill="url(#glow2)"/>
+
+  <!-- Architecture node graphic on right -->
+  <g transform="translate(760, 48)">
+    <line x1="165" y1="112" x2="55" y2="45" stroke="#334155" stroke-width="1.8"/>
+    <line x1="165" y1="112" x2="295" y2="45" stroke="#334155" stroke-width="1.8"/>
+    <line x1="165" y1="112" x2="45" y2="182" stroke="#334155" stroke-width="1.8"/>
+    <line x1="165" y1="112" x2="305" y2="182" stroke="#334155" stroke-width="1.8"/>
+    <line x1="55" y1="45" x2="295" y2="45" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 4"/>
+    <line x1="45" y1="182" x2="305" y2="182" stroke="#1e293b" stroke-width="1.2" stroke-dasharray="4 4"/>
+
+    <!-- Center core node -->
+    <circle cx="165" cy="112" r="46" fill="#0f172a" stroke="url(#accentBar)" stroke-width="2.5"/>
+    <text x="165" y="107" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="14" font-weight="700">JAVA 21</text>
+    <text x="165" y="126" text-anchor="middle" fill="#38bdf8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600">Spring Boot</text>
+
+    <!-- Satellite nodes -->
+    <rect x="0" y="24" width="110" height="36" rx="10" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4"/>
+    <text x="55" y="47" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">React + TS</text>
+
+    <rect x="240" y="24" width="118" height="36" rx="10" fill="#0b1220" stroke="#818cf8" stroke-opacity="0.55" stroke-width="1.4"/>
+    <text x="299" y="47" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">PostgreSQL</text>
+
+    <rect x="-10" y="164" width="110" height="36" rx="10" fill="#0b1220" stroke="#f43f5e" stroke-opacity="0.55" stroke-width="1.4"/>
+    <text x="45" y="187" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">Redis Cache</text>
+
+    <rect x="245" y="164" width="118" height="36" rx="10" fill="#0b1220" stroke="#c084fc" stroke-opacity="0.55" stroke-width="1.4"/>
+    <text x="304" y="187" text-anchor="middle" fill="#e2e8f0" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600">Apache Kafka</text>
+  </g>
+
+  <!-- Left Text Block -->
+  <g transform="translate(64, 72)">
+    <rect x="0" y="0" width="290" height="26" rx="13" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <circle cx="16" cy="13" r="4" fill="#22c55e"/>
+    <text x="28" y="17" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="0.8">OPEN TO FULL STACK JAVA ROLES</text>
+
+    <text x="0" y="92" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="56" font-weight="800" letter-spacing="-1">Lucky</text>
+    <rect x="0" y="106" width="140" height="4" rx="2" fill="url(#accentBar)"/>
+
+    <text x="0" y="142" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="500">Full Stack Java Developer · Spring Boot &amp; React</text>
+    <text x="0" y="172" fill="#64748b" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15">Building REST APIs, JWT Security, PostgreSQL schemas &amp; modern UIs</text>
+  </g>
+</svg>
