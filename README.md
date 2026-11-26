@@ -1,8 +1,8 @@
-<img src="assets/banner.svg?v=3" alt="Sardar Japnam Singh Lall — Full Stack Web Developer" width="100%"/>
+<img src="assets/banner.svg?v=4" alt="Sardar Japnam Singh Lall — Full Stack Web Developer" width="100%"/>
 
 <p align="center">
   <a href="mailto:lucky6387183422@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/lucky638718?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories"/></a>
+  <a href="https://github.com/Japnamsinghdev?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories"/></a>
   <a href="mailto:lucky6387183422@gmail.com?subject=Full%20Stack%20Developer%20Opportunity"><img src="https://img.shields.io/badge/Open%20to%20opportunities-2ea44f?style=for-the-badge" alt="Open to opportunities"/></a>
   <!-- Uncomment after adding your links:
   <a href="https://YOUR-PORTFOLIO-LINK"><img src="https://img.shields.io/badge/Portfolio-0e75b6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
@@ -15,8 +15,8 @@
 ### 👨‍💻 About me
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg?v=3">
-  <img src="assets/terminal-light.svg?v=3" alt="About Sardar Japnam Singh Lall" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg?v=4">
+  <img src="assets/terminal-light.svg?v=4" alt="About Sardar Japnam Singh Lall" width="100%">
 </picture>
 
 ### 💡 What I Do
@@ -62,5 +62,5 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lucky638718&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=Japnamsinghdev&label=Profile%20views&color=0e75b6&style=for-the-badge" alt="Profile views"/>
 </p>

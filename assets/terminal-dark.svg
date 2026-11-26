@@ -7,7 +7,7 @@
   <circle cx="22" cy="18" r="6" fill="#ff5f56"/>
   <circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
   <circle cx="62" cy="18" r="6" fill="#27c93f"/>
-  <text x="440" y="22" text-anchor="middle" fill="#8b949e" font-family="Consolas, Monaco, monospace" font-size="12">japnam@github — ~/profile</text>
+  <text x="440" y="22" text-anchor="middle" fill="#8b949e" font-family="Consolas, Monaco, monospace" font-size="12">Japnamsinghdev@github — ~/profile</text>
 
   <g font-family="Consolas, Monaco, monospace" font-size="14">
     <text x="26" y="68" fill="#58a6ff">$ whoami</text>
